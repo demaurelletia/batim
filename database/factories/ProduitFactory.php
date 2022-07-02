@@ -14,7 +14,12 @@ class ProduitFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'nom'=> $this->faker->sentence(),
+            'description'=> $this->faker->sentence(rand(1,4)),
+            'image'=> $this->faker->imageUrl(),
+            'prix'=> rand(4000,10000000),
+            'active'=> $this->faker->boolean(100),
+
         ];
     }
 }

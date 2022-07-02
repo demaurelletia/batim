@@ -14,9 +14,16 @@ class CreateCommandeProduitTable extends Migration
     public function up()
     {
         Schema::create('commande_produit', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
-        });
+            $table->unsignedBigInteger('commande_id');
+            $table->unsignedBigInteger('produits_id');
+
+            $table->integer('quantite_total');
+            $table->integer('prix_total');
+
+            $table->foreigner('commande_id')->references('id')->on('commandes');
+            $table->foreigner('produits_id')->references('id')->on('produits');
+
+        }); 
     }
 
     /**

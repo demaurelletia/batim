@@ -15,6 +15,7 @@ class CommandeFactory extends Factory
     {
         return [
             //
+            'numero_commande' => uniqid()
         ];
     }
 }
