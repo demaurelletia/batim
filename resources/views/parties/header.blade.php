@@ -155,19 +155,13 @@
                                     <nav>
                                         <ul>
                                             <li>
-                                                <a href="product-details.html">Wooden</a>
+                                                <a href="/">Accueil</a>
                                             </li>
                                             <li>
-                                                <a href="product-details.html">Chair</a>
+                                                <a href="categorie">Boutique</a>
                                             </li>
                                             <li>
-                                                <a href="product-details.html">Tables</a>
-                                            </li>
-                                            <li>
-                                                <a href="product-details.html">Kitchen</a>
-                                            </li>
-                                            <li>
-                                                <a href="product-details.html">Others</a>
+                                                <a href="contact">Contact</a>
                                             </li>
                                         </ul>
                                     </nav>

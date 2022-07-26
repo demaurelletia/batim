@@ -31,5 +31,11 @@ Route::get('paiement',[PostController::class,'paiement']);
 
 Route::get('detailproduit',[PostController::class,'detailproduit']);
 
+Route::get('panier',[PostController::class,'panier']);
 
 
+
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

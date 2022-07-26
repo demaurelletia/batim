@@ -28,5 +28,9 @@
     {
          return view('produitdetail');
     }
+    public function panier()
+    {
+         return view('panier');
+    }
  }
 
